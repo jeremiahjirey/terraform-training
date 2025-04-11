@@ -85,7 +85,7 @@ https://learn.hashicorp.com/collections/terraform/aws-get-started
 The official owner of the app I use for training:
 
 - 🔗 [handipradana/apigatewayv2](https://github.com/handipradana/apigatewayv2)  
-  Jury of Banyumas Regency LKS 2025.
+  Jury of Banyumas Regency LKS Cloud Computing 2025.
 
 ## 📝 License
 © 2025 Imannuel Jeremi
