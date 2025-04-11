@@ -11,9 +11,7 @@ This repository is a hands-on guide to learning **Terraform**, covering core con
 - [🚀 Installing Terraform](#-installing-terraform)
 - [🔐 Setting AWS Credentials](#-setting-aws-credentials)
 - [🛠️ Basic Terraform Commands](#️-basic-terraform-commands)
-- [📂 Project Structure](#-project-structure)
 - [📄 Documentation & Learning Resources](#-documentation--learning-resources)
-- [📢 Contributing](#-contributing)
 - [📝 License](#-license)
 
 ---
@@ -33,9 +31,55 @@ This repository is a hands-on guide to learning **Terraform**, covering core con
    ```bash
    terraform -v
 
+## 🛠️ Basic Terraform Commands
+
+| Command                                      | Description                              |
+|---------------------------------------------|------------------------------------------|
+| `terraform init`                            | Initialize the project                   |
+| `terraform validate`                        | Validate configuration syntax            |
+| `terraform fmt`                             | Format Terraform files                   |
+| `terraform plan`                            | Preview infrastructure changes           |
+| `terraform plan -target=RESOURCE`           | Preview changes for specific resource    |
+| `terraform apply`                           | Apply infrastructure changes             |
+| `terraform apply -auto-approve`             | Apply changes without confirmation       |
+| `terraform destroy`                         | Destroy all managed infrastructure       |
+| `terraform destroy -target=RESOURCE`        | Destroy a specific resource              |
+| `terraform state list`                      | List all resources in the state          |
+| `terraform output`                          | Show output values                       |
+| `terraform show`                            | Show detailed state or plan              |
+
+
+## 🔐 Setting AWS Credentials
+
+1. Using a .env File (Recommended for Local Dev)
+   ```bash
+   AWS_ACCESS_KEY_ID=your_access_key
+   AWS_SECRET_ACCESS_KEY=your_secret_key
+   AWS_SESSION_TOKEN=your_session_token 
+2. Use a script or terminal command to export them:
+   You can see the command [here](https://github.com/jeremiahjirey/terraform-training/blob/main/credentials)
+
+
+
+## 📄 Documentation & Learning Resources
+🌐 Official Terraform Docs
+https://developer.hashicorp.com/terraform/docs
+
+🔍 Terraform Registry (Modules & Providers)
+https://registry.terraform.io
+
+🧱 AWS Terraform Provider Docs
+https://registry.terraform.io/providers/hashicorp/aws/latest
+
+📘 Learn Terraform by HashiCorp (Tutorials)
+https://developer.hashicorp.com/terraform/tutorials
+
+🎯 Terraform Best Practices
+https://www.terraform-best-practices.com/
+
+🧪 Playground (Try Terraform in Browser)
+https://learn.hashicorp.com/collections/terraform/aws-get-started
+
 ## 📝 License
-
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
-
 © 2025 Imannuel Jeremi
 
