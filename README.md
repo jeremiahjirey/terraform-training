@@ -84,7 +84,7 @@ https://learn.hashicorp.com/collections/terraform/aws-get-started
 ## 📦 Application Code For Pratice
 The official owner of the app I use for training:
 
-- 🔗 [handipradana/apigatewayv2](https://github.com/handipradana)  
+- 🔗 [handipradana/apigatewayv2](https://github.com/handipradana/apigatewayv2)  
   Jury of Banyumas Regency LKS 2025.
 
 ## 📝 License
